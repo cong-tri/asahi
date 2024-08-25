@@ -153,8 +153,10 @@ const RegisterForm = () => {
             program: valueProgram ?? "",
         }
 
-        // const result = await handleSendMail(formData);
-        // console.log(result);
+        const result = await handleSendMail(formData);
+        console.log(result);
+
+        message.info(result?.message)
 
     };
 

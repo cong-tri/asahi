@@ -17,10 +17,10 @@ const RegisterPage = () => {
                 <Col xs={"auto"} sm={"auto"} md={16}>
                   <Image
                     src={"/logo.png"}
-                    width={200}
+                    width={250}
                     height={200}
                     quality={100}
-                    className="h-24 w-32 sm:h-[110px] sm:w-[160px] md:h-[150px] md:w-[220px]"
+                    className="h-24 w-32 sm:h-28 sm:w-40 md:h-36 md:w-52 2xl:w-[250px]"
                     alt="Logo Ahasi"
                   />
                 </Col>
@@ -31,7 +31,7 @@ const RegisterPage = () => {
                     width={200}
                     quality={100}
                     height={200}
-                    className="w-[120px] sm:w-[200px] md:h-full md:w-full"
+                    className="w-28 sm:w-[200px] md:h-full md:w-full"
                     alt="Register"
                   />
                 </Col>
@@ -205,11 +205,11 @@ const RegisterPage = () => {
           </Col>
         </Row>
 
-        <div className="bg-white rounded-lg h-fit my-9 md:mx-6">
+        <div className="bg-white rounded-lg h-fit my-9 md:mx-6 xl:mx-10">
           <RegisterForm />
         </div>
         <div>
-          <div className="bg-black rounded-lg mb-5 py-3 px-10 w-fit block mx-auto">
+          <div className="bg-black rounded-lg mb-5 py-3 px-10 w-52 md:w-56 block mx-auto">
             <h1 className="text-center text-base md:text-xl text-white font-medium">
               <span className="text-5xl md:text-6xl text-yellow-400 font-bold pb-4">
                 ~56
@@ -227,8 +227,9 @@ const RegisterPage = () => {
             CHỈ CÓ TẠI ASAHI
           </h1>
 
-          <div className="border-b-2 border-red-500 w-[250px] md:w-[300px] pb-0 px-5 mb-5 block mx-auto"></div>
-          <div className="block mx-auto px-5 md:px-0 md:w-[650px] xl:w-[700px]">
+          <div className="border-b-2 border-red-500 w-60 md:w-96 pb-0 px-5 mb-5 block mx-auto"></div>
+
+          <div className="block mx-auto px-5 md:px-0 md:w-3/6">
             <p className="mb-5 text-base md:text-xl">
               Tại Asahi, chi phí tham gia chương trình bao gồm Phí dịch vụ và
               Phí đào tạo Ngoại ngữ & Kỹ năng thấp nhất CHỈ TỪ 56 TRIỆU VNĐ. Chi
@@ -237,8 +238,7 @@ const RegisterPage = () => {
             </p>
           </div>
 
-
-          <div className="border-b-2 border-red-500 w-[250px] md:w-[300px] pb-0 px-5 mb-6 block mx-auto"></div>
+          <div className="border-b-2 border-red-500 w-60 md:w-96 pb-0 px-5 mb-6 block mx-auto"></div>
 
           <h1 className="text-center text-base md:text-xl font-medium mb-1">
             ASAHI GROUP
