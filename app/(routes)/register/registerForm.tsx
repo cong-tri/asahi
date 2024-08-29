@@ -229,7 +229,7 @@ const RegisterForm = () => {
     return (
         <div className="py-6 sm:py-8 sm:px-5 md:px-0">
             <Row align={"middle"} justify={"center"}>
-                <Col xs={24} md={20} xl={12} className="px-4 md:px-0">
+                <Col xs={24} md={20} xl={16} xxl={20} className="px-4 md:px-0">
                     <h1 className="text-base md:text-xl font-medium">
                         Chỉ cần điền vài thông tin bên dưới, nhân viên tư vấn sẽ gọi lại sớm
                         nhất có thể để tư vấn trực tiếp & chọn công việc phù hợp nhé!

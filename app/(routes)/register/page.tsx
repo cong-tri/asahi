@@ -9,9 +9,9 @@ import RegisterForm from "./registerForm";
 const RegisterPage = () => {
   return (
     <div className="bg-green-100 h-fit">
-      <div className="container w-auto xl:w-full mx-6 sm:mx-auto">
+      <div className="container w-auto md:w-full mx-6 sm:mx-auto">
         <Row align={"middle"} justify={"center"}>
-          <Col xs={24} md={24} lg={12} xl={12}>
+          <Col xs={24} md={24} lg={20} xl={14} xxl={20}>
             <div className="mt-32 mb-10 w-auto sm:mt-16 md:mt-20 md:mb-10 md:ml-8">
               <Row justify={"space-between"} align={"middle"}>
                 <Col xs={"auto"} sm={"auto"} md={16}>
@@ -205,7 +205,7 @@ const RegisterPage = () => {
           </Col>
         </Row>
 
-        <div className="bg-white rounded-lg h-fit my-9 md:mx-6 xl:mx-10">
+        <div className="bg-white rounded-lg h-fit my-9 mx-auto w-full xl:w-3/4 2xl:w-full">
           <RegisterForm />
         </div>
         <div>
